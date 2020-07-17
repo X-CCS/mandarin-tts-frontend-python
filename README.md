@@ -10,5 +10,5 @@
 
 ### 一个复杂的语音合成前端
 - [ ] 包含多音字预测
-- [ ] 包含韵律预测
+- [ ] 包含韵律预测（参考[bert+nn](https://github.com/Helsinki-NLP/prosody)）
 - [ ] 模型输入包含韵律，参考[DurIAN](https://arxiv.org/abs/1909.01700)
