@@ -38,3 +38,9 @@ if __name__ == "__main__":
     with open("phone.txt", "w", encoding="utf-8") as f:
         for phone in phone_set:
             f.write(phone + "\n")
+
+    with open("phone.map", "w", encoding="utf-8") as f:
+        index = 1
+        for phone in phone_set:
+            f.write(phone + " " + str(index) + "\n")
+            index += 1
