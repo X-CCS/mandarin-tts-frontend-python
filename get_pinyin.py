@@ -9,7 +9,7 @@ toneMap = {"ā": "a1", "á": "a2", "ǎ": "a3", "à": "a4", "ō": "o1", "ó": "o2
 tone = {'#2': 0, '#1': 0, '#4': 0, '#3': 0}  # '#1', '#2', '#3', '#4'
 
 cwd = os.getcwd()
-suffix = 'pinyin_data' if 'mandarin-tts-frontend-python' in cwd else './mandarin-tts-frontend-python/pinyin_data'
+suffix = 'pinyin_data' if 'mandarin-tts-frontend-python' in cwd else './frontend/pinyin_data'
 
 hz = {}
 with open(os.path.join(suffix, 'pinyin.txt'), 'r', encoding='utf-8') as f:
